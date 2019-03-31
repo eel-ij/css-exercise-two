@@ -1,6 +1,7 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
 }
 
 nav {
@@ -8,6 +9,16 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.25em;
+  color: #ffffff;
+}
+
+a:hover{
+  color: #0142EF;
 }
 
 .logo {
@@ -20,7 +31,7 @@ nav {
 }
 
 .medium-pic {
-  width: 70%;
+  width: 50%;
 }
 
 .left, .right {
@@ -32,6 +43,26 @@ nav {
   float: right;
 }
 
+h1 {
+  text-transform: capitalize;
+  font-size: 3em;
+  line-height: 3em;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1em;
+}
+
+.author {
+  font-size: 1.25em;
+  line-height: 3.25em;
+}
+
+.story-text {
+  font-size: 1.15em;
+  line-height: 1.1em;
+}
 ul {
   list-style-type: none;
   float: right;
